@@ -1,0 +1,72 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+/* UNIVERSAL RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* GENERAL STYLES */
+html{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+h2{
+    position: absolute;
+    top: 0;
+    margin-top: 1rem;
+    color: blue;
+    font-size: 7.5rem;
+    opacity: 0.3;
+}
+
+.holdContainer{
+    max-width: 400px;
+}
+
+.submitInput{
+    padding: 1rem 2rem;
+    background-color: white;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    box-shadow: 0px 6px 6px black;
+}
+
+.todo{
+    list-style: none;
+}
+
+.todoitem{
+    background-color: white;
+    line-height: 2rem;
+    border-top: 2px solid #a9a9a9;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+}
+
+small{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8rem;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
