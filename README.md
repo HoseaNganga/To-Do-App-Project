@@ -6,6 +6,26 @@ This project highlights a simple, dynamic, and interactive todo app created usin
 
 The TODO App provides a user-friendly interface for creating and managing your to-do list. It allows users to add new tasks, mark them as completed, and store the list locally. The app is designed to be straightforward and easy to use.
 
+## Table of Contents
+
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [Project Structure](#project-structure)
+- [Development](#development)
+- [Local Storage](#local-storage)
+- [License](#license)
+- [Author](#author)
+
+## Screenshots
+
+1. Screenshot1
+
+<img src="screenshots/screenshot1.PNG" width="350px">
+
+2. Screenshot2
+
+<img src="screenshots/screenshot2.PNG" width="350px">
+
 ## Features
 
 - Add new tasks to the to-do list.
